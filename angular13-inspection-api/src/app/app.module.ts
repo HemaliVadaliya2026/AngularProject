@@ -8,13 +8,15 @@ import { InspectionComponent } from './inspection/inspection.component';
 import { ShowInspectionComponent } from './inspection/show-inspection/show-inspection.component';
 import { AddEditInspectionComponent } from './inspection/add-edit-inspection/add-edit-inspection.component';
 import { InspectionApiService } from './inspection-api.service';
+import { FileUploadComponent } from './inspection/file-upload/file-upload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InspectionComponent,
     ShowInspectionComponent,
-    AddEditInspectionComponent
+    AddEditInspectionComponent,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,
